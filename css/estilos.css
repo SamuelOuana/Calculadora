@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+.geral {
+    display: flex;
+    flex-flow: column;
+    border: 5px solid rgb(0, 28, 128);
+    width: 310px;
+}
+
+.maquina {
+    display: flex;
+    flex-flow: column;
+    border: 3px solid green;
+    height: 500px;
+    width: 300px;
+}
+
+.telas {
+    height: 100px;
+    width: 300px;
+    border: 5px solid rgb(255, 0, 0);
+    font-size: 30px;
+}
+
+.digitos button {
+    width: 70px;
+    height: 50px;
+    font-size: 25px;
+}
+
+/* .digitos #igual {
+    width: 140px;
+    height: 50px;
+} */

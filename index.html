@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilos.css ">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="geral">
+        <h1>Calculadora</h1>
+        <div class="maquina">
+            <div class="telas" id="tela">
+                Tela
+            </div>
+            <div class="digitos">
+                <button onclick=calculadora.proximoNumero(1)>1</button>
+                <button onclick=calculadora.proximoNumero(2)>2</button>
+                <button onclick=calculadora.proximoNumero(3)>3</button>
+                <button onclick=calculadora.adicao()>+</button>
+                <button onclick=calculadora.proximoNumero(4)>4</button>
+                <button onclick=calculadora.proximoNumero(5)>5</button>
+                <button onclick=calculadora.proximoNumero(4)>6</button>
+                <button onclick=calculadora.subtracao()>-</button>
+                <button onclick=calculadora.proximoNumero(7)>7</button>
+                <button onclick=calculadora.proximoNumero(8)>8</button>
+                <button onclick=calculadora.proximoNumero(9)>9</button>
+                <button onclick=calculadora.multiplicacao()>×</button>
+                <button onclick=calculadora.proximoNumero(0)>0</button>
+                <button onclick=calculadora.proximoNumero(".")>.</button>
+                <button onclick=calculadora.apagar()>del</button>
+                <button onclick=calculadora.divisao()>÷</button>
+                <button onclick=calculadora.proximoNumero()>(</button>
+                <button onclick=calculadora.proximoNumero()>)</button>
+                <button onclick="calculadora.limpar()">AC</button>
+                <button id="igual" onclick="calculadora.igual()">=</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="JS/script.js"> </script>
+    <!-- <script type="text/javascript">calculadora.inicializacao();</script> -->
+</body>
+
+</html>
