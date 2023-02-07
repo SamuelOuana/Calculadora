@@ -82,7 +82,7 @@ let calculadora = {
         switch (estado) {
 
             case 'inicializacao':
-                document.getElementById("tela").innerText = 'tela';
+                document.getElementById("tela").innerText = ' ';
                 estado = 'operando1';
                 break;
 
